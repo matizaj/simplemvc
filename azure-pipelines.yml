@@ -37,3 +37,4 @@ steps:
   displayName: Build an image
   inputs: $(imageName)
     command: Build
+    Dockerfile: **/Dockerfile
