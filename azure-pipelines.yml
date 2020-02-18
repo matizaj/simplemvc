@@ -35,5 +35,5 @@ steps:
 
 - task: Docker@2
   displayName: Build an image
-  inputs: MyImageName
+  inputs: $(imageName)
     command: Build
