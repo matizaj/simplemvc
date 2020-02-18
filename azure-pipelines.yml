@@ -38,5 +38,4 @@ steps:
   inputs:
     repository: $(imageName)
     command: Build
-    dockerfile: **/Dockerfile
 
