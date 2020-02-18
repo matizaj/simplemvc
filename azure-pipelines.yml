@@ -32,3 +32,9 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+
+- task: Docker@2
+    displayName: Build an image
+    inputs: $(imageName)
+    command: Build
+    Dockerfile: app/Dockerfile
