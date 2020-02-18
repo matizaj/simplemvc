@@ -37,4 +37,3 @@ steps:
     displayName: Build an image
     inputs: MyImageName
     command: Build
-    Dockerfile: app/Dockerfile
